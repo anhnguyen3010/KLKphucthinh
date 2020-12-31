@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS buổi 1</title>
+    <!-- Internal Css
+    <style>
+        h1 {
+            background-color: rgb(9, 94, 58);
+            color: seashell;
+            font-size: 80px;
+        }
+    </style> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  </head>
+
+  <body>
+    <!-- Inline style
+    background-color: property
+    red: value
+    -->
+    <!-- <h1 style="background-color: red;color: green;">Demo CSS</h1>
+    <h1>Demo Css</h1> -->
+
+    <!-- <h1>Demo Internal Css</h1>
+    <h1>Demo Internal Css</h1> -->
+
+    <!-- <h1 id="id" class="class1">Demo External CSS </h1>
+    <h1>Demo External CSS </h1>
+   
+    <h2 class="class">Demo external css</h2>
+    <h2 class="class class1">Demo external css</h2>
+    <h2>Demo external css</h2>
+
+    <div class="content">
+        <span>Hello</span>
+        <p >World</p>
+        <i >@.@</i>
+    </div> -->
+    <div class="container">
+      <div class="header">
+        <a href="#">
+          <!-- 2 định dạng hình chính: jpg nhẹ, có background
+            png: ko có bg, thường dùng làm logo, icon nhỏ -->
+          <img src="./img/LOGO.png" alt="logo" />
+        </a>
+      </div>
+      <div class="navbar">
+        <a href="#">Trang Chủ</a>
+        <a href="#">Giới Thiệu</a>
+        <a href="#">Sản Phẩm</a>
+        <a href="#">Tin Tức</a>
+        <a href="#">Liên Hệ</a>
+      </div>
+      <div class="carousel"></div>
+      <div class="intro">
+        <p>
+          Lorem <span>KLK Phuc Thinh</span> ipsum dolor sit, amet consectetur
+          adipisicing elit. Sint aut, nihil voluptates ex libero, architecto cum
+          deleniti modi sunt quos laboriosam nulla odit laborum consequuntur,
+          natus illo eligendi nobis! Dolorum, cumque pariatur similique
+          distinctio porro temporibus odit harum deserunt ea, consequatur quia
+          aliquam! Dolore adipisci distinctio expedita dolor incidunt provident!
+        </p>
+        <div class="list">
+          <div class="left">
+            <div class="item item-50">
+              <img src="./img/img_nha_tam.jpg" alt="" />
+            </div>
+            <div class="item item-50"><img src="./img/sofa.jpg" alt="" /></div>
+            <div class="clearfix"></div>
+            <div class="item"><img src="./img/img_noi_that.jpg" alt="" /></div>
+          </div>
+          <div class="right">
+            <div class="item">
+              <img src="./img/img_phong_khach.jpg" alt="" />
+            </div>
+            <div class="item"><img src="./img/img_van_phong.jpg" alt="" /></div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="best-seller">
+        <h1>Các sản phẩm bán chạy</h1>
+        <div class="list">
+          <div class="item">
+            <img src="./img/sp_1.jpg" alt="sản phẩm 1" />
+            <h1>SF0001</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+              atque! Repudiandae, quas quam ducimus nulla, odit libero molestiae
+              reprehenderit voluptate nisi asperiores aliquid commodi quae
+              suscipit provident magni sequi itaque!
+            </p>
+            <a href="#">Chi tiết</a>
+          </div>
+
+          <div class="item">
+            <img src="./img/sp_2.jpg" alt="sản phẩm 2" />
+            <h1>SF0002</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+              atque! Repudiandae, quas quam ducimus nulla, odit libero molestiae
+              reprehenderit voluptate nisi asperiores aliquid commodi quae
+              suscipit provident magni sequi itaque!
+            </p>
+            <a href="#">Chi tiết</a>
+          </div>
+
+          <div class="item">
+            <img src="./img/sp_3.jpg" alt="sản phẩm 3" />
+            <h1>SF0003</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+              atque! Repudiandae, quas quam ducimus nulla, odit libero molestiae
+              reprehenderit voluptate nisi asperiores aliquid commodi quae
+              suscipit provident magni sequi itaque!
+            </p>
+            <a href="#">Chi tiết</a>
+          </div>
+
+          <div class="item">
+            <img src="./img/sp_4.jpg" alt="sản phẩm 4" />
+            <h1>SF0004</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+              atque! Repudiandae, quas quam ducimus nulla, odit libero molestiae
+              reprehenderit voluptate nisi asperiores aliquid commodi quae
+              suscipit provident magni sequi itaque!
+            </p>
+            <a href="#">Chi tiết</a>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="banner">
+          <img src="./img/nature.jpg" alt="">
+          <div class="content">
+              <p>Sale off</p>
+              <p>50%</p>
+              <p>Các sản phẩm sofa <br> trong tháng 7</p>
+          </div>
+      </div>
+      <div class="service">
+          <div class="item">
+            <span class="fa fa-home"></span>
+            <h1>Dịch vụ bảo hành</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="item">
+            <span class="fas fa-pencil-alt" ></span>
+            <h1>Dịch vụ bảo hành</h1>  
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="item">
+            <span class="fas fa-user-alt"></span>
+            <h1>Dịch vụ bảo hành</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="clearfix"></div>
+      </div>
+      <div class="footer">
+        <h1>Interior Design</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, tenetur?</p>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem ipsum dolor sit.</p>
+      </div>
+    </div>
+  </body>
+</html>
