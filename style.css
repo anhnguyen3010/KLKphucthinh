@@ -221,15 +221,17 @@ h1{
 /* glypgsearch.com tìm icon */
 .service {
 
-    margin: 50px 100px 10px;
+    margin: 40px 100px 10px;
     
 } 
 .service h1{
     font-weight: 300;
+    margin-bottom: 10px;
 }
 .service span {
     font-size: 60px;
     display:inline-block;
+    margin-bottom: 10px;
     opacity: 0.8;
 }
 .service .item {
