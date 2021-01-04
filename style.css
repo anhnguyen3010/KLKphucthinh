@@ -155,10 +155,11 @@ h1{
     float: left;
     width: 50%;
 }
-.intro .list .item .img {
+.intro .list .item img {
     width: 100%;
     display: block;
 }
+
 .intro .list .item {
     padding: 10px;
     box-sizing: border-box;
